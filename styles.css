@@ -1,0 +1,115 @@
+ul.topnav {
+			list-style-type: none;
+			margin: 0;
+			padding-left: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		ul.topnav li {float: left;}
+		ul.topnav li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		ul.topnav li a:hover(.active)
+		{background-color: #111;}
+
+		ul.topnav li.right {float: right;}
+
+
+
+		div.gallery {}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		div.gallery img {
+			width: 
+			height: auto;
+			border-radius: 15px 50px;
+			object-fit: cover;
+		}
+
+	
+
+		.responsive {
+			padding: 0 6px;
+			float: left;
+			width: 24.99999%
+		}
+
+
+		.clearfix:after {
+			content: " ";
+			display: table;
+			clear: both;
+		}
+
+
+		.description {
+			color: red;
+			font-family: courier;
+			background-color: yellow
+			box-shadow: 10px 10px grey;
+		}
+
+
+		@media screen and (max-width: 600px)  {
+			ul.topnav li.right,
+			ul.topnav li {float: none;}
+		}
+		h1  {
+	background-color: #333;
+	text-align: center;
+	padding: 20px;
+	color: SlateBlue;
+	text-decoration: overline;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	text-shadow: 3px 2px red;
+				}
+
+		
+		h4 {
+			text-align: center;
+			color: orange;
+		}
+		.table1 {
+			overflow: auto;
+		}
+
+		tr:nth-child(even) {background-color: #f2f2f2;}
+		
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		table, th, td {
+			border: transparent;
+			border-radius: 25px;
+		}
+		th, td {
+			padding: 15px;
+			text-align: center;
+		}
+
+		ul.b {
+			list-style-type: square;
+		}
+
+		.footer {
+			padding: 20px;
+			background-color: #ddd;
+			text-align: center;
+			margin-top: 20px;
+			text-shadow: 3px 2px red;
+			border-radius: 5px 15px;
+		}
